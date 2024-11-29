@@ -61,13 +61,16 @@ h1 {
     cursor: pointer;
 }
 
-article {padding: 0 1.3em;
+article {
+    padding: 0 1.3em;
 }
 
-#art {display: inline-block;
-margin-left: 4em;
-padding-right: 4em;
-text-align: left;}
+#art {
+    display: inline-block;
+    margin-left: 4em;
+    padding-right: 4em;
+    text-align: left;
+}
 
 h3 {
     padding: 0.7em 0;
@@ -75,7 +78,7 @@ h3 {
 
 article img {
     display: inline-block;
-    margin-left:4em;
+    margin-left: 4em;
     border-radius: 50%;
     width: 22em;
 }
@@ -110,7 +113,9 @@ article img {
 
 /* ASIDE */
 
-aside  {margin-bottom: 7em;}
+aside {
+    margin-bottom: 7em;
+}
 
 .tabs {
     margin: 1.5em 1.5em 2em 1.5em;
@@ -118,15 +123,20 @@ aside  {margin-bottom: 7em;}
     border: 0.1em solid #dee1e3;
     border-radius: 1%;
     display: inline-block;
-    width: 20em;}
+    width: 20em;
+}
 
 .tabs img {
     width: 100%;
 }
 
-#pic2 {height: 13.4em;}
+#pic2 {
+    height: 13.4em;
+}
 
-#pic3 {height: 13.4em;}
+#pic3 {
+    height: 13.4em;
+}
 
 
 .tabs p {
@@ -146,7 +156,8 @@ footer {
 footer h2 {
     color: white;
     font-size: 2em;
-    padding: 0.7em;;
+    padding: 0.7em;
+    ;
 }
 
 footer a {
