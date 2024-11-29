@@ -27,27 +27,26 @@ header {
 header img {
     display: block;
     width: 175px;
-    padding: 2em;
-    margin: auto;
+    padding: 1.5em;
 }
 
 /* MAIN */
 #title {
-    padding: 1em 1.4em;
+    padding: 7em;
     background-image: url(../img/banner.jpg);
     background-size: cover;
-    background-position: center;
-    margin-bottom: 2em;
+    background-position: top;
+    margin-bottom: 7em;
 }
 
 h1 {
     font-size: 2em;
     line-height: 1;
-    padding: 1em 0.5em 0.7em 0.5em;
+    padding: 0.5em 0.5em 0.7em 0.5em;
 }
 
 #title p {
-    padding: 0 1.5em;
+    padding: 0 12em;
 }
 
 #title input {
@@ -59,28 +58,34 @@ h1 {
     background-color: #f04c2f;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-article {
-    padding: 0 1.3em;
+article {padding: 0 1.3em;
 }
+
+#art {display: inline-block;
+margin-left: 4em;
+padding-right: 4em;
+text-align: left;}
 
 h3 {
-    padding: 0.7em;
+    padding: 0.7em 0;
 }
 
 article img {
+    display: inline-block;
+    margin-left:4em;
     border-radius: 50%;
-    width: 75%;
-    padding: 1em 0;
+    width: 22em;
 }
 
 #quote {
     background-color: #e22d0e;
     color: white;
-    margin-top: 3em;
+    margin-top: 6em;
     margin-bottom: 3.5em;
-    padding: 0.5em 1em
+    padding: 1em 1em 2em 1em
 }
 
 #quote h2 {
@@ -105,19 +110,27 @@ article img {
 
 /* ASIDE */
 
+aside  {margin-bottom: 7em;}
+
 .tabs {
     margin: 1.5em 1.5em 2em 1.5em;
     padding-bottom: 2em;
     border: 0.1em solid #dee1e3;
     border-radius: 1%;
-}
+    display: inline-block;
+    width: 20em;}
 
 .tabs img {
     width: 100%;
 }
 
+#pic2 {height: 13.4em;}
+
+#pic3 {height: 13.4em;}
+
+
 .tabs p {
-    margin: 0 0.8em;
+    margin: 0 0.7em;
 }
 
 /* FOOTER */
@@ -126,12 +139,14 @@ footer {
     color: #c8e7f0;
     background-color: #25a2c3;
     padding-bottom: 2em;
+    align-content: center;
+    margin: auto;
 }
 
 footer h2 {
     color: white;
     font-size: 2em;
-    padding: 0.7em;
+    padding: 0.7em;;
 }
 
 footer a {
@@ -139,11 +154,14 @@ footer a {
 }
 
 footer address {
+    display: inline-block;
+    text-align: left;
     padding-bottom: 1.5em;
+    margin: auto;
 }
 
 footer hr {
-    width: 60%;
+    width: 20%;
 }
 
 footer p {
